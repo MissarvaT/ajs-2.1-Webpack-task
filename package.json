@@ -1,0 +1,25 @@
+{
+  "name": "ajs-2.1-webpack-task",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "webpack-cli": "^3.3.11",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.2.0",
+    "http-server": "^0.12.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "test",
+    "build": "webpack --mode production"
+  },
+  "author": "missarvat",
+  "license": "ISC",
+}
